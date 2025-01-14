@@ -2,7 +2,7 @@
 // /// <reference types="Cypress-xpath" />
 
 describe("Test Contact Us form via Automation Test Store", () => {
-    it("Should be able to sumbmit a succesful submission via contact us form", () => {
+    it("Should be able to submit a successful submission via contact us form", () => {
         //cypress code
         cy.visit("https://automationteststore.com/");
         cy.get("a[href$='contact']").click().then(function(linkText) {
