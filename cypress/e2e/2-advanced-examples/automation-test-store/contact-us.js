@@ -6,7 +6,7 @@ describe("Test Contact Us form via Automation Test Store", () => {
         //cypress code
         cy.visit("https://automationteststore.com/");
         cy.get("a[href$='contact']").click().then(function(linkText) {
-            cy.log("Clicked on link using text: " + linkText.text())
+        cy.log("Clicked on link using text: " + linkText.text())
         })
         //cy.xpath("//a[contains(@href, 'contact')]").click();
         cy.get('#ContactUsFrm_first_name').type("Patricio");
