@@ -1,6 +1,6 @@
 # Cypress Automation Framework
 
-![Cypress](/Users/apple/Documents/Screen_Shots/cypress_logo.png)
+![Cypress](images/cypress_logo.png)
 
 Este proyecto es un framework de automatización de pruebas utilizando [Cypress](https://www.cypress.io/). Está organizado para facilitar la creación, ejecución y mantenimiento de pruebas automatizadas de aplicaciones web.
 
@@ -43,7 +43,7 @@ cypress-automation-framework/
 │   │   │   │   └── selectors.js.mp4
 ```
 
-![logo](/Users/apple/Documents/Screen_Shots/cypress_logo2.png)
+![logo](images/cypress_logo2.png)
 
 ## Instalación
 
@@ -67,7 +67,7 @@ Para ejecutar las pruebas en modo headless:
 ```bash
 npx cypress run
 ```
-![Logo](/Users/apple/Documents/Screen_Shots/cypress_logo3.png)
+![Logo](images/cypress_logo3.png)
 
 
 ## Estructura de Carpetas
